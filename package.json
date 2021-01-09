@@ -2,7 +2,8 @@
     "name": "foo",
     "version": "1.2.3",
     "scripts": {
-        "start": "node main.js"
+        "fetch": "node fetch.js",
+        "await-fetch": "node await-fetch.js"
     },
     "dependencies": {
         "node-fetch": "^2.6.1"
